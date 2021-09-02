@@ -1,7 +1,7 @@
 from openpyxl import Workbook
 import json
 
-# Read info from names file
+# Read info from fake names file
 people = open('names.json').read()
 pplJson = json.loads(people)
 
