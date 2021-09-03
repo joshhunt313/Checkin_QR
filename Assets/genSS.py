@@ -12,7 +12,7 @@ for p in pplJson:
     pplList.append(newPerson)
 
 wb = Workbook()
-dest = 'people.xlsx'
+dest = '../people.xlsx'
 ws = wb.active
 ws.title = 'Hackers'
 
