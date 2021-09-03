@@ -2,7 +2,7 @@ from openpyxl import Workbook
 import json
 
 # Read info from fake names file
-people = open('names.json').read()
+people = open('samplePpl.json').read()
 pplJson = json.loads(people)
 
 # Add people to list
